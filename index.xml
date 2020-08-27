@@ -490,7 +490,7 @@ The controller requires CRDs to be installed. We have a couple of options to do 
       <guid>/70_workshop_7_multicloud/10_prerequisites/20_clusterctl.html</guid>
       <description>The CluserAPI (CAPI) is a project of SIG Cluster Lifecycle to bring declarative, Kubernetes-style APIs to cluster creation, configuration, and management.
 cluserctl is the cli that we&amp;rsquo;ll use to bootstrap the CAPI controllers.
-curl -L https://github.com/kubernetes-sigs/cluster-api/releases/download/v0.3.6/clusterctl-linux-amd64 -o clusterctl chmod +x ./clusterctl sudo mv ./clusterctl /usr/local/bin/clusterctl Validate that it&amp;rsquo;s working
+curl -L https://github.com/kubernetes-sigs/cluster-api/releases/download/v0.3.8/clusterctl-linux-amd64 -o clusterctl chmod +x ./clusterctl sudo mv ./clusterctl /usr/local/bin/clusterctl Validate that it&amp;rsquo;s working
 clusterctl version</description>
     </item>
     
